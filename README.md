@@ -104,5 +104,10 @@ Kemudian tambahkan Social Application
 Membuka login page: http://localhost:8000/accounts/login
 
 
-Referensi: ```django-allauth``` documentation
+### Referensi: 
+
+```django-allauth``` documentation
 https://django-allauth.readthedocs.io/en/latest/installation.html
+
+https://gist.github.com/t-book/0fb30804e217bdeb064dd91b5041fbc9
+
