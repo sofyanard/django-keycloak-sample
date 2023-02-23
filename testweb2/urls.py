@@ -21,5 +21,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('allauth.urls')),
     path('hello/', hello.hello_world, name='hello_world'),
-    # path('', include('testweb2.urls')),
 ]
