@@ -103,6 +103,12 @@ Kemudian tambahkan Social Application
 
 Membuka login page: http://localhost:8000/accounts/login
 
+### CATATAN:
+2023-03-06: based on https://github.com/GeoNode/geonode/issues/9311 ..\
+tambahkan di ```settings.py``` : ```SOCIALACCOUNT_LOGIN_ON_GET=True```\
+dan di file ```requirements.txt``` ubah versi ```django-allauth``` ke 0.44.0\
+(thanks to https://github.com/edwin)
+
 
 ### Referensi: 
 
@@ -110,4 +116,6 @@ Membuka login page: http://localhost:8000/accounts/login
 https://django-allauth.readthedocs.io/en/latest/installation.html
 
 https://gist.github.com/t-book/0fb30804e217bdeb064dd91b5041fbc9
+
+https://github.com/GeoNode/geonode/issues/9311
 
